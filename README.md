@@ -1,2 +1,2 @@
-# dbscan
-DbScan repository
+# DBSCAN
+DBSCAN Clustering Method
