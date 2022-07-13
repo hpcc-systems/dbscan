@@ -138,7 +138,7 @@ EXPORT globalMerge := MODULE
             if(rc < pc)
             {
               row = rowBuilder.ensureCapacity(returnsize, NULL);
-              void * pos = row;
+              uint8_t * pos = row;
               uint32_t id = uptable[rc].id;
               uint32_t pid = uptable[rc].pid;
               uint32_t wi = uptable[rc].wi;
