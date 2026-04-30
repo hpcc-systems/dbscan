@@ -35,7 +35,10 @@ EXPORT locCluster := MODULE
     #include<iostream>
     #include<bits/stdc++.h>
 
-    using namespace std;
+    using std::vector;
+    using std::string;
+    using std::max;
+    using std::abs;
 
     string distanceFunc = "euclidian";
     vector<double> dist_params;
